@@ -1,0 +1,22 @@
+$border-color: #D3D6DA;
+
+// * {
+//     border: 1px solid red;
+// }
+h1 {
+    text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width: 250px;
+    height: 300px;
+    margin: auto auto;
+
+    .item {
+        border: 4px solid $border-color;
+    }
+}
